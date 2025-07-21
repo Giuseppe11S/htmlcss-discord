@@ -10,6 +10,7 @@
   background-color: rgb(173, 216, 231) ;
   background: url(../img/jumbo.png);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 60vh;
 }
 
@@ -23,6 +24,7 @@ nav ul {
 
 ul li{
   padding: 8px 20px;
+  font-size: 14px;
 }
 
 a{
@@ -67,7 +69,7 @@ nav{
 .hero-details h1{
   margin-bottom: 25px;
   text-align: center;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .hero-details p{
@@ -105,51 +107,128 @@ nav{
 }
 
 /* SEZIONE MAIN */
-/* Sezione main */
+
+/* prima sezione del main */
 .container-info{
-  margin-top: 50px;
+  margin-top: 120px;
   height: 100%;
   display: flex;
   justify-content: center;
+  gap: 100px;
 }
-.container-blue{
-  border: 2px dashed black;
-  padding-top: 50px;
-  background-color: rgb(29, 144, 255);
-  width: 600px; 
-  height: 400px;
+.picture-main{
+  width: 600px;
 }
-
-.container-pink{
-  border: 2px dashed black;
-  background-color: rgb(255, 193, 202);
-  width: 400px; 
-  height: 400px;
+.container-p-right, .container-p-left, .container-p-right-third{
+  padding-top: 30px;
+}
+.container-info p{
+  margin-top: 15px;
+  line-height: 25px;
 }
 
-.container-info-grey{
-  margin-top: 50px;
+#title-p{
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.container-bwaves{
+  background: url(../img/wave.svg);
+  height: 70vh;
+  background-size: contain;
+  background-size: 100% 100%
+}
+
+/* seconda sezione del main */
+
+.container-info-2{
+  margin-top: 200px;
   height: 100%;
   display: flex;
   justify-content: center;
-  background-color:rgb(211, 211, 211) ;
+  gap: 100px;
 }
 
-.container-info-grey div{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.container-p-left{
+  line-height: 26px;
 }
 
-.container-green{
-  border: 2px dashed black ;
-  background-color: rgb(32, 139, 33) ;
-  width: 1000px;
-  height: 700px;
+.container-info-second p{
+  margin-top: 30px;
 }
 
+/* terza sezione del main */
+.container-info-3{  
+  margin-top: 120px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+#picture-3-main{
+  width: 500px;
+}
+.container-info-3 p{
+  margin-top: 15px;
+  line-height: 26px;
+}
+
+/* quarta sezione del main */
+
+.container-info-4{
+  margin-top: 120px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.container-info-4 p{
+  margin-top: 15px;
+  line-height: 26px;
+  text-align: center;
+}
+.container-picture-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#big-img-4{
+  width: 80%;
+}
+
+/* Ultima sezione del main */
+.container-action-main{
+  display: flex;
+  justify-content: center;
+}
+
+.bg-main{
+  background: url(../img/stars.svg);
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+.bg-main span{
+  font-size: 25px;
+  font-weight: 800;
+}
+#container-button-download{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#container-button-download button{
+  border: none;
+  background-color: rgb(143, 161, 225);
+  color: white;
+}
 /* Sezione footer */
 
-.container-footer-black{
+ .container-footer-black{
+  margin-top: 150px;
   padding: 20px 0;
   background-color: rgb(35, 39, 42);
   height: 100%;
@@ -200,4 +279,4 @@ nav{
 
 #button-footer{
   text-align: end;
-}
+} 
