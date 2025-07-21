@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Sezione Nav */
+/* SEZIONE NAV */
 #container-header{
   background-color: rgb(173, 216, 231) ;
+  background: url(../img/jumbo.png);
+  background-size: cover;
+  height: 60vh;
 }
 
 nav ul {
@@ -15,66 +19,92 @@ nav ul {
  justify-content: center;
  flex-grow: 1;
  height: 100%;
- border-right: 2px dashed black;
- border-left: 2px dashed black;
 }
 
 ul li{
-  padding: 5px;
+  padding: 8px 20px;
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 nav{
-  padding: 15px 0;
+  padding: 18px 0;
 }
 
 .container-nav{
-  border: 2px dashed black;
   display: flex;
   align-items: center;
-  background-color: rgb(218, 165, 29);
-  height: 30px;
+  height: 35px;
   width: 70%;
   margin: 0 auto;
 }
 
-#logo{
-  padding-left: 5px;
-  width: 150px;
-  height: 100%;
-  text-align: start;
-  line-height: 28px;
+/* BOTTONE LOGIN NAV-BAR */
+#login-button{
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
 }
 
-#login{
-  padding-right: 5px;
-  width: 150px;
-  height: 100%;
-  text-align: end;
-  line-height: 28px;
-}
-/* Sezione Hero / Main */
+/* SEZIONE HERO  */
 
 .container-hero{
   display: flex;
-  justify-content: center;
-  background-color: rgb(27, 1, 139);
-  height: 600px;
+  flex-direction: column;
+  height: 40vh;
 }
 
 .hero-details{
   width: 60%;
-  height: 80%;
-  background-color: rgb(239, 130, 237) ;
   margin: auto;
-  border: 2px dashed black;
   border-radius: 8px;
+  color: white;
 }
 
+.hero-details h1{
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 48px;
+}
+
+.hero-details p{
+  text-align: center;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+
+.container-button-header{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.container-button-header button{
+  border: none;
+}
+
+/* BOTTONE DOWNLOAD  */
+#button-download{
+  padding: 12px 30px;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+/* BOTTONE OPEN  */
+#button-open{
+  font-size: 17px;
+  padding: 12px 30px;
+  border-radius: 20px;
+  background-color: #23272a;
+  color: white;
+}
+
+/* SEZIONE MAIN */
 /* Sezione main */
 .container-info{
   margin-top: 50px;
