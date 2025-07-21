@@ -228,30 +228,62 @@ nav{
 /* Sezione footer */
 
  .container-footer-black{
+  color: white;
   margin-top: 150px;
   padding: 20px 0;
   background-color: rgb(35, 39, 42);
-  height: 100%;
+  height: 65vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid rgb(115, 137, 217);
 }
+
 
 .container-row-left{
-  border: 2px dashed black;
-  height: 500px;
+  height: 400px;
   width: 300px;
-  background-color: rgb(240, 129, 128) ;
 }
+
+#title-p-footer{
+  color: rgb(115, 137, 218);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+#lang-dropdown{
+  margin-top: 15px;
+  width: 20px;
+}
+
+#it-lang{
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+.container-icons{
+  margin-top: 15px;
+  color: white;
+}
+
 
 .container-row{
-  border: 2px dashed black;
-  height: 500px;
+  height: 380px;
   width: 150px;
-  background-color: #22b3aa;
 }
 
-/* Sezione footer */
+.title-row{
+  color: rgb(115, 137, 218);
+  padding-bottom: 40px;
+}
+
+.container-row p{
+  padding-top: 12px;
+  font-size: 14px;
+}
+
+/* NAV FOOTER */
 .container-nav-footer{
   padding: 30px 0;
   height: 100px;
@@ -264,19 +296,15 @@ nav{
   margin: 0 auto;
   height: 70px;
   width: 60%;
-  background-color: rgb(127, 255, 212) ;
   display: flex;
   justify-content: space-between;
 }
 
-#logo-footer,
-#button-footer{
-  border: 2px dashed black;
-  line-height: 7px;
-  background-color: rgb(254, 182, 191);
-  padding: 10px 10px;
-}
-
-#button-footer{
-  text-align: end;
+#button-register{
+  border: none;
+  background-color: rgb(143, 161, 225);
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 20px;
 } 
